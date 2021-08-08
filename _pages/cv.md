@@ -25,11 +25,6 @@ Work experience
 * June 2012- June 2014: Software Engineer
   * Alcatel-Lucent India Ltd.
 
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Research Interests
 ======
