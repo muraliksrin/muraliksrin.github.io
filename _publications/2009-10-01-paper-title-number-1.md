@@ -2,7 +2,7 @@
 title: "Airplane-Aided Integrated Next-Generation
 Networking"
 collection: publications
-permalink: https://ieeexplore.ieee.org/document/9491998
+permalink: /publication/2010-10-01-paper-title-number-1
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2021-7-01
 venue: 'IEEE Transactions on Vehicular Technology'
