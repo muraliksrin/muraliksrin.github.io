@@ -11,30 +11,37 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.E. in Electronics and Commuication Engineering, College of Engineering Guindy, Anna University, 2012
+* M.Tech. and Ph.D in Electrical Engineering, Indian Institute of Technology Madras, 2020 
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* November 2020- Present: Postdoctoral Researcher
+  * ETIS UMR-8051, ENSEA, CY-Tech, CNRS, Cergy, France-95000
+
+* May 2020- October 2020: Project Officer
+  * Indian Institute of Technology Madras
+
+* June 2012- June 2014: Software Engineer
+  * Alcatel-Lucent India Ltd.
+
 
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
   
-Skills
+Research Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Physical Layer security 
+* Integrated Next-Generation Networking 
+* Unmanned Aerial Vehicles 
+* Massive MIMO
+* Extreme value theory
+* Matrix models for generalized fading
+* Deep Learning for Wireless systems
+* Hypergeometric functions
+
 
 Publications
 ======
@@ -42,18 +49,4 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
