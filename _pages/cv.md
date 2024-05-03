@@ -11,26 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Indian Institute of Technology Madras, 2020
+* M.Tech. in Communication Engineering, Indian Institute of Technology Madras, 2020
+* B.E. in Electronics and Communication Engineering, College of Engineering Guindy, Anna University Chennai, 2012
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* December 2023 - current: Assistant Professor
+  * Electronics Engineering Department
+  * Indian Institute of Technology BHU, Varanasi
+    
+* December 2021-2023: Postdoctoral Researcher
+  * Communication Systems Group, Electrical Engineering, Chalmers University of Technology, Gothenburg, Sweden
+  * Supervisor: Dr. Henk Wymeersch
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* November 2020-2021: Postdoctoral Researcher
+  * Equipe Traitement de l'Information et Systèmes (ETIS), Cergy, France
+  * ETIS is a joint research department between CYU Cergy Paris University, ENSEA Graduate School of Electrical Engineering and CNRS/INS2I. 
+  * Supervisor: Dr. Arsenia Chorti
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* June 2012- June 2014: Software Engineer
+  * Alcatel Lucent India Ltd. (currently Nokia Seimens)
+  
   
 Skills
 ======
