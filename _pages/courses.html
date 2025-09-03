@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.courses reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{%- assign order = "EO102,EC211,EC274,EC411" | split: "," -%}
+{%- for code in order -%}
+  {%- assign one = site.courses | where: "code", code -%}
+  {%- for course in one -%}
+    {% include course-card.html item=course %}
+  {%- endfor -%}
+{%- endfor -%}
