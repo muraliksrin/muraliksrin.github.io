@@ -1,0 +1,16 @@
+<article class="archive__item course-card">
+  <h2 class="archive__item-title">
+    <a href="{{ include.item.url | relative_url }}">
+      {{ include.item.code }}: {{ include.item.title | replace_first: include.item.code | strip }}
+    </a>
+  </h2>
+
+  <p class="page__meta">
+    <strong>Semester:</strong> {{ include.item.semester }}
+    {% if include.item.level %} · <strong>Level:</strong> {{ include.item.level }}{% endif %}
+  </p>
+
+  {% if include.item.excerpt %}
+    <p class="course-summary">{{ include.item.excerpt }}</p>
+  {% endif %}
+</article>
