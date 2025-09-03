@@ -1,0 +1,8 @@
+/* Hide archive excerpts on the Courses page if you add `classes: no-excerpt` */
+.no-excerpt .archive__item-excerpt { display: none; }
+
+/* Teaching table styling */
+.teaching-table { width: 100%; border-collapse: collapse; }
+.teaching-table th,
+.teaching-table td { border-bottom: 1px solid #e5e5e5; padding: .5rem .75rem; vertical-align: top; }
+.teaching-table th { text-align: left; }
