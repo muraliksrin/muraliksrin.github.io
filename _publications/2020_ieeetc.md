@@ -1,0 +1,11 @@
+---
+title: "Transmit Power Policy and Ergodic Multicast Rate Analysis of Cognitive Radio Networks in Generalized Fading"
+collection: publications
+permalink: /publications/2020_ieeetc
+date: 2020-06-01
+venue: 'IEEE Transactions on Communications, vol. 68, no. 6, pp. 3311-3325'
+authors: "A. Subhash, M. Srinivasan, S. Kalyani, L. Hanzo"
+type: journal
+url: ""
+doi: ""
+---

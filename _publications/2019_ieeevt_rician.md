@@ -1,0 +1,11 @@
+---
+title: "Analysis of Optimal Combining in Rician Fading With Co-Channel Interference"
+collection: publications
+permalink: /publications/2019_ieeevt_rician
+date: 2019-04-01
+venue: 'IEEE Transactions on Vehicular Technology, vol. 68, no. 4, pp. 3613-3628'
+authors: "M. Srinivasan, S. Kalyani"
+type: journal
+url: ""
+doi: ""
+---

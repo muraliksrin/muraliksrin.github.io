@@ -1,0 +1,11 @@
+---
+title: "Analysis of Massive MIMO With Low-Resolution ADC in Nakagami-m Fading"
+collection: publications
+permalink: /publications/2019_ieeecl
+date: 2019-04-01
+venue: 'IEEE Communications Letters, vol. 23, no. 4, pp. 764-767'
+authors: "M. Srinivasan, S. Kalyani"
+type: journal
+url: ""
+doi: ""
+---

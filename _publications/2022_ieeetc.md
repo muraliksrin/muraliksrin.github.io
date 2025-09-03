@@ -1,0 +1,11 @@
+---
+title: "Joint Power-control and Antenna Selection in User-Centric Cell-Free Systems with Mixed Resolution ADC"
+collection: publications
+permalink: /publications/2022_ieeetc
+date: 2022-12-01
+venue: 'IEEE Transactions on Communications, vol. 70, no. 12, pp. 8400-8415'
+authors: "S. Shekhar, A. Subhash, M. Srinivasan, S. Kalyani"
+type: journal
+url: ""
+doi: ""
+---
