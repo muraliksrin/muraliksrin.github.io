@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-{%- assign order = "EO102,EC211,EC274,EC411" | split: "," -%}
+{%- assign order = "EO102,EC211" | split: "," -%}
 {%- for code in order -%}
   {%- assign one = site.courses | where: "code", code -%}
   {%- for course in one -%}
