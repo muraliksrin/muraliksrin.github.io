@@ -6,3 +6,8 @@
 .teaching-table th,
 .teaching-table td { border-bottom: 1px solid #e5e5e5; padding: .5rem .75rem; vertical-align: top; }
 .teaching-table th { text-align: left; }
+
+
+.pub-list { list-style: none; padding-left: 0; }
+.pub-list li { margin: .5rem 0 1rem; }
+.pub-authors, .pub-venue { color: #666; font-size: .95em; }
