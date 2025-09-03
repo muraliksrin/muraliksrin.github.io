@@ -1,0 +1,11 @@
+/* CV page tweaks */
+.cv-page .page__content h2 { margin-top: 1.2rem; }
+.cv-page .page__content h3 { margin-top: .8rem; }
+
+.cv-table { width: 100%; border-collapse: collapse; margin-top: .25rem; }
+.cv-table th, .cv-table td { border-bottom: 1px solid #e5e5e5; padding: .35rem .5rem; vertical-align: top; }
+.cv-table th { text-align: left; }
+.cv-page .page__content ul { margin-top: .25rem; margin-bottom: .25rem; }
+
+/* Compact lists */
+.cv-page .page__content li { margin: .15rem 0; }
