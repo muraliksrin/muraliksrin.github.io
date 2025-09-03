@@ -1,0 +1,8 @@
+---
+title: "Performance Analysis of Device-to-Device Communication Underlaying Dense Networks (DenseNets)"
+collection: publications
+permalink: /publication/2019_ieeevt_dense
+date: 2019-09-01
+venue: 'IEEE Transactions on Vehicular Technology, vol. 68, no. 9, pp. 9257-9266'
+authors: "S. Gupta, M. Srinivasan, Y. Lin, R. Zhang, S. Kalyani, L. Hanzo"
+---
