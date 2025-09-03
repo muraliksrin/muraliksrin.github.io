@@ -7,13 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-{%- assign all = site.projects -%}
-{%- if all == nil -%}
-  {%- assign all = "" | split: "|" -%} {# creates an empty array #}
-{%- endif -%}
-
-{%- assign pi   = all | where: "role", "PI"     | sort: "start" | reverse -%}
-{%- assign copi = all | where: "role", "Co-PI"  | sort: "start" | reverse -%}
+{% assign all = site.projects %}
+{% if all %}
+  {% assign pi   = all  | where: "role", "PI"    | sort: "start" | reverse %}
+  {% assign copi = all  | where: "role", "Co-PI" | sort: "start" | reverse %}
+{% else %}
+  {% assign pi   = "" | split: "|" %}
+  {% assign copi = "" | split: "|" %}
+{% endif %}
 
 <table class="projects-table">
   <thead>
@@ -27,18 +28,32 @@ author_profile: true
     </tr>
   </thead>
   <tbody>
-    {# PI block first #}
+    {% assign n = 0 %}
+
+    {%- comment -%} PI block {%- endcomment -%}
     {% for p in pi %}
-    <tr>
-      <td>{{ forloop.index }}</td>
-      <td><a href="{{ p.url | relative_url }}">{{ p.title }}</a></td>
-      <td>{{ p.sponsor }}</td>
-      <td>{{ p.amount }}</td>
-      <td>{{ p.role }}</td>
-      <td>{{ p.start | date: "%b %Y" }} – {{ p.end | date: "%b %Y" }}</td>
-    </tr>
+      {% assign n = n | plus: 1 %}
+      <tr>
+        <td>{{ n }}</td>
+        <td><a href="{{ p.url | relative_url }}">{{ p.title }}</a></td>
+        <td>{{ p.sponsor }}</td>
+        <td>{{ p.amount }}</td>
+        <td>{{ p.role }}</td>
+        <td>{{ p.start | date: "%b %Y" }} – {{ p.end | date: "%b %Y" }}</td>
+      </tr>
     {% endfor %}
 
-    {# Co-PI block #}
+    {%- comment -%} Co-PI block {%- endcomment -%}
     {% for p in copi %}
-    <tr>
+      {% assign n = n | plus: 1 %}
+      <tr>
+        <td>{{ n }}</td>
+        <td><a href="{{ p.url | relative_url }}">{{ p.title }}</a></td>
+        <td>{{ p.sponsor }}</td>
+        <td>{{ p.amount }}</td>
+        <td>{{ p.role }}</td>
+        <td>{{ p.start | date: "%b %Y" }} – {{ p.end | date: "%b %Y" }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
