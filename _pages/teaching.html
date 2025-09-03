@@ -1,12 +1,49 @@
 ---
-layout: archive
+layout: single
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+{% assign offerings = site.teaching %}
+{% assign years = offerings | map: "year" | uniq | sort | reverse %}
+{% assign term_order = "odd,even" | split: "," %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<table class="teaching-table">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Term</th>
+      <th>Course(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for y in years %}
+    {% for t in term_order %}
+      {% assign rows = offerings | where: "year", y | where: "term", t %}
+      {% if rows.size > 0 %}
+        <tr>
+          <td>{{ y }}</td>
+          <td>{{ t | capitalize }}</td>
+          <td>
+            {% for offer in rows %}
+              {% assign course = site.courses | where: "code", offer.code | first %}
+              {% if course %}
+                {%- assign prefix = course.title | slice: 0, offer.code.size -%}
+                {% if prefix == offer.code %}
+                  <a href="{{ course.url | relative_url }}#syllabus">{{ course.title }}</a>
+                {% else %}
+                  <a href="{{ course.url | relative_url }}#syllabus">{{ offer.code }}: {{ course.title }}</a>
+                {% endif %}
+              {% else %}
+                {{ offer.code }}{% if offer.title %}: {{ offer.title }}{% endif %}
+              {% endif %}
+              {% unless forloop.last %}<br>{% endunless %}
+            {% endfor %}
+          </td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  </tbody>
+</table>
