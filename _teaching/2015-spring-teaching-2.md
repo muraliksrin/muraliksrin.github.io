@@ -1,20 +1,26 @@
 ---
-title: "Teaching experience 2"
-collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+title: "EC211: Analog Communications"
+type: "Theory"
+collection: courses
+permalink: /courses/EC211
+date: 2025-01-01
+venue: "IIT (BHU), Dept. of Electronics Engineering"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Course Objectives:
 
-Heading 1
-======
 
-Heading 2
-======
+### Textbook(s)
+- Instructor notes and standard references (e.g., Haykin / Lathi) as needed.
 
-Heading 3
-======
+### Syllabus — 5 Modules
+1. **Signals & Modulation Need**  
+   Baseband vs passband, spectra, channel impairments, why modulation, taxonomy of analog schemes.
+2. **Amplitude Modulation**  
+   DSB-SC, AM (DSB-LC), SSB, VSB; power efficiency, envelope detector, synchronous detection; superhet overview.
+3. **Angle Modulation**  
+   FM/PM definitions, wideband/narrowband FM, Carson’s rule, generation (Varactor/Armstrong), discriminators & PLL.
+4. **Noise Performance**  
+   Noise models, SNR for AM/FM, pre/de-emphasis, capture effect, noise bandwidth, figure of merit comparisons.
+5. **Applications & Practice**  
+   Broadcast standards, aviation comms, link budgets, mixers/filters, constraints and transition to digital.
