@@ -7,8 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-{%- assign pi = site.projects | where: "role", "PI" | sort: "start" | reverse -%}
-{%- assign copi = site.projects | where: "role", "Co-PI" | sort: "start" | reverse -%}
+{%- assign all = site.projects -%}
+{%- if all == nil -%}
+  {%- assign all = "" | split: "|" -%} {# creates an empty array #}
+{%- endif -%}
+
+{%- assign pi   = all | where: "role", "PI"     | sort: "start" | reverse -%}
+{%- assign copi = all | where: "role", "Co-PI"  | sort: "start" | reverse -%}
 
 <table class="projects-table">
   <thead>
@@ -22,7 +27,7 @@ author_profile: true
     </tr>
   </thead>
   <tbody>
-    <!-- PI block first -->
+    {# PI block first #}
     {% for p in pi %}
     <tr>
       <td>{{ forloop.index }}</td>
@@ -34,16 +39,6 @@ author_profile: true
     </tr>
     {% endfor %}
 
-    <!-- Co-PI block after PI -->
+    {# Co-PI block #}
     {% for p in copi %}
     <tr>
-      <td>{{ forloop.index }}</td>
-      <td><a href="{{ p.url | relative_url }}">{{ p.title }}</a></td>
-      <td>{{ p.sponsor }}</td>
-      <td>{{ p.amount }}</td>
-      <td>{{ p.role }}</td>
-      <td>{{ p.start | date: "%b %Y" }} – {{ p.end | date: "%b %Y" }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
