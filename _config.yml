@@ -205,7 +205,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  courses:
+  courses:                # ← add this block
     output: true
     permalink: /courses/:path/
   portfolio:
