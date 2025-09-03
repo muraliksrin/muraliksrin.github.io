@@ -1,8 +1,0 @@
-title: "Smart Channel State Information Pre-Processing for Authentication and Symmetric Key Distillation"
-collection: publications
-permalink: /publication/2023_ieeetcmlcn
-year: 2023
-month: --
-venue: 'IEEE Transactions on Machine Learning in Communications and Networking, vol. 1, pp. 328-345'
-authors: "M. Srinivasan, S. Skaperas, M. Mitev, M.H. Herfeh, M.K. Shehzad, P. Sehier, A. Chorti"
----

@@ -1,8 +1,0 @@
-title: "End-to-End Learning for VCSEL-based Optical Interconnects: State-of-the-Art, Challenges and Opportunities"
-collection: publications
-permalink: /publication/2023_ieeejlt
-year: 2023
-month: June
-venue: 'IEEE Journal of Lightwave Technology, vol. 41, no. 11, pp. 3261-3277'
-authors: "M. Srinivasan, J. Song, A. Grabowski, K. Szczerba, H.K. Iversen, M.N. Schmidt, D. Zibar, J. Schröder, A. Larsson, C. Häger, H. Wymeersch"
----
