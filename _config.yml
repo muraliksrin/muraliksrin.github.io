@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Varanasi"
-  employer         : "Indian Institute of Technology (BHU)"
+  employer         : "Indian Institute of Technology, (BHU)"
   uri              : # URL
   email            : "muralikrishnan.ece@iitbhu.ac.in" 
 
@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-7569-2182"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Muralikrishnan-S"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
